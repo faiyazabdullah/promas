@@ -54,7 +54,8 @@ class FoodItem{
         
         echo
         "<h2 class='food'>$this->name</h2>
-        <p>$this->price</p>";
+        <p>Stock : $this->stock</p>
+        <p>Price : $this->price</p>";
         
 
     }
